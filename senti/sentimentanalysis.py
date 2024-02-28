@@ -4,6 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import accuracy_score, classification_report
+import os
 
 # Load the dataset
 file_path = os.path.join(os.getcwd(), 'IMDB_Dataset.csv')
