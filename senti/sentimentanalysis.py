@@ -7,7 +7,7 @@ from sklearn.metrics import accuracy_score, classification_report
 import os
 
 # Load the dataset
-file_path = os.path.join(os.getcwd(), '/senti/IMDB_Dataset.csv')
+file_path = os.path.join(os.getcwd(), 'senti/IMDB_Dataset.csv')
 print(file_path, "*****************************")
 data = pd.read_csv(file_path)
 
