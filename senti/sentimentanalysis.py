@@ -6,7 +6,7 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import accuracy_score, classification_report
 
 # Load the dataset
-data = pd.read_csv('imdb_dataset.csv')
+data = pd.read_csv('IMDB_Dataset.csv')
 
 # Shuffle the data
 data = data.sample(frac=1).reset_index(drop=True)
